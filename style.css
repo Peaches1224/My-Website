@@ -1,0 +1,223 @@
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+
+body{
+     background-image: url(images/il_fullxfull.3198625044_retv.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+
+header {
+
+
+}
+
+nav {
+    background-color: rgba(217, 90, 217, 0.309);
+    width: 100%;
+    text-align: center;
+    color: purple;
+    padding-top: 10px;
+    margin-bottom: 0%;
+    position: fixed;
+   
+    
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    margin-top: 2px;
+     padding-top: 30px;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+footer {
+background-color: rgba(128, 0, 128, 0.207);
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+.container{
+    margin-left: auto;
+        margin-right: auto;
+        width: 1024;
+
+}
+
+h1{
+    font-size: 60px;
+    color:purple;
+    font-styl🇦🇶;
+    text-align: center;
+    padding-top: 14px;
+
+}
+
+h2{
+    font-size: 50px;
+    color: purple;
+    font-styl🇦🇶;
+    text-align: center;
+    padding-top: 2px;
+}
+p{
+  background:#e2d1e2a8;
+  font: size 30px ;
+    color: purple;
+    text-align: center;
+        width: 80%;
+        
+}
+
+a{
+    text-align: end;
+    font-size: 24px;
+    font-family🇦🇽;
+    color: rgb(57, 5, 80);
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.column{
+    flex-direction: column;
+    align-items: center;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.button{
+    background-color: purple;
+    color:white;
+    padding: 8px 24px;
+    transition: all 2s;
+    text-shadow: 1px 2px rgba(0,0,0,.6);
+    text-align: center;
+    
+
+}
+.button:hover{
+   transform: scale(1.1);
+
+}
+
+
+.gallery{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.gallery-photo{
+    margin-right: 35px;
+    margin-bottom: 34px;
+}
+
+.mt{
+    margin-top: 130px;
+    
+}
+
+.service-container{
+    background:#e2d1e2a8;
+    padding: 24px 0px;
+
+}
+
+.service-name{
+    width:200px;
+
+}
+
+.service-items{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: top;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.line{
+    height: 4px;
+    width: 90%;
+    border-bottom: dotted 5px purple;
+    margin: 0px 12px;
+
+}
+
+.image-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+background: rgba(0,0,0,.6);}
+
+
+
+.large-image{
+    width: 50%;
+}
+
+.front-paragraph .container{
+    background:#e2d1e2a8;
+  
+}
+
+.reviews{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.reviews-photos{
+    
+    padding-right: 100px;
+    margin-right: 35px;
+    margin-bottom: 34px;
+    align-items: center;
+}
